@@ -1,11 +1,11 @@
+/*
+Copyright © 2026 NAME HERE <EMAIL ADDRESS>
+
+*/
 package main
 
-import (
-	"fmt"
-
-	"github.com/idzamik/cli-pr/cmd"
-)
+import "github.com/idzamik/cli-pr/cmd"
 
 func main() {
-	fmt.Println(cmd.Hi("roberto"))
+	cmd.Execute()
 }
